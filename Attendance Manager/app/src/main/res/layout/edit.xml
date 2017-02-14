@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"></LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="5dp"/>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="@color/accentColor"/>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="@color/accentColor"/>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="2dp"
+                android:paddingTop="15dp"
+                android:text="Rename the Subjects:"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_marginLeft="20dp"
+                android:typeface="serif"
+                android:textColor="#3F51B5" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"></LinearLayout>
+
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:text="Subject1"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_marginLeft="20dp"
+                        android:id="@+id/tvs1"
+                        android:typeface="normal"
+                        android:textColor="#009688" />
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/edittvs1"
+                        android:layout_weight="2.5"
+                        android:layout_marginRight="10dp"
+                        android:typeface="monospace"
+                        android:hint="Enter Subject1" />
+
+                </TableRow>
+
+                <TableRow>
+                    <LinearLayout
+                        android:layout_height="10dp"
+                        android:layout_width="10dp">
+                    </LinearLayout>
+                </TableRow>
+
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:text="Subject2"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_marginLeft="20dp"
+                        android:id="@+id/tvs2"
+                        android:typeface="normal"
+                        android:textColor="#009688" />
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/edittvs2"
+                        android:layout_weight="2.5"
+                        android:layout_marginRight="10dp"
+                        android:typeface="monospace"
+                        android:hint="Enter Subject2" />
+
+                </TableRow>
+
+                <TableRow>
+                    <LinearLayout
+                        android:layout_height="10dp"
+                        android:layout_width="10dp">
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:text="Subject3"
+                        android:id="@+id/tvs3"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_marginLeft="20dp"
+                        android:typeface="normal"
+                        android:textColor="#009688" />
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/edittvs3"
+                        android:layout_weight="2.5"
+                        android:layout_marginRight="10dp"
+                        android:typeface="monospace"
+                        android:hint="Enter Subject3" />
+
+
+                </TableRow>
+
+                <TableRow>
+                    <LinearLayout
+                        android:layout_height="10dp"
+                        android:layout_width="10dp">
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:text="Subject4"
+                        android:id="@+id/tvs4"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_marginLeft="20dp"
+                        android:typeface="normal"
+                        android:textColor="#009688" />
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/edittvs4"
+                        android:layout_weight="2.5"
+                        android:layout_marginRight="10dp"
+                        android:typeface="monospace"
+                        android:hint="Enter Subject4" />
+
+
+                </TableRow>
+
+                <TableRow>
+                    <LinearLayout
+                        android:layout_height="10dp"
+                        android:layout_width="10dp">
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:text="Subject5"
+                        android:id="@+id/tvs5"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_marginLeft="20dp"
+                        android:typeface="normal"
+                        android:textColor="#009688" />
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/edittvs5"
+                        android:layout_weight="2.5"
+                        android:layout_marginRight="10dp"
+                        android:typeface="monospace"
+                        android:hint="Enter Subject5" />
+                </TableRow>
+
+                <TableRow>
+                    <LinearLayout
+                        android:layout_height="5dp"
+                        android:layout_width="5dp">
+                    </LinearLayout>
+                </TableRow>
+
+                <Button
+                    android:layout_height="fill_parent"
+                    android:layout_width="wrap_content"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"
+                    android:text="Save"
+                    android:id="@+id/bSaveS"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="20dp"
+                    android:textColor="#E91E63" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"></LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="5dp"/>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/accentColor"/>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/accentColor"/>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="5dp"/>
+
+
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

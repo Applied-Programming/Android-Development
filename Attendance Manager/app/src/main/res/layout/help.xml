@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- #ff1e2138 -->
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="5dp"/>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="@color/accentColor"/>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="@color/accentColor"/>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="5dp"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:elevation="5dp"
+                android:padding="5dp"
+                android:text="Assumptions of Attendance Manager:"
+                android:textSize="20dp"
+                android:textColor="#E91E63" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:elevation="5dp"
+                android:paddingRight="5dp"
+                android:paddingLeft="10dp"
+                android:text="* It is assumed that any particular subject is not engaged on the day, if it is not set by the user."
+                android:textSize="15dp"
+                android:textColor="#009688" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:elevation="5dp"
+                android:paddingRight="5dp"
+                android:paddingLeft="10dp"
+                android:text="* The default attendance limit is 75 %. However you can change it as per your preference."
+                android:textSize="15dp"
+                android:textColor="#009688" />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="5dp"/>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="@color/accentColor"/>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="@color/accentColor"/>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="5dp"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:elevation="5dp"
+            android:padding="5dp"
+            android:text="Click Edit Subjects button:"
+            android:textSize="20dp"
+            android:textColor="#E91E63" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:elevation="5dp"
+            android:paddingRight="5dp"
+            android:paddingLeft="10dp"
+            android:text="Edit Subjects: Edit the subject names as per your lectures."
+            android:textSize="15dp"
+            android:textColor="#009688" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="5dp"/>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="@color/accentColor"/>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="@color/accentColor"/>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="5dp"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:elevation="5dp"
+                android:padding="5dp"
+                android:text="Click Attendance Limit:"
+                android:textSize="20dp"
+                android:textColor="#E91E63" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:elevation="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:paddingTop="2dp"
+            android:text="Set Minimum Attendance: Set the minimum attendance upto which you are allowed to bunk."
+            android:textSize="15dp"
+            android:textColor="#009688" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:elevation="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:paddingTop="2dp"
+            android:text="Whenever the attendance in a subject gets lower than this minimum percentage, you will be notified accordingly."
+            android:textSize="15dp"
+            android:textColor="#009688" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="5dp"/>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="@color/accentColor"/>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="@color/accentColor"/>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="5dp"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:elevation="5dp"
+                android:padding="5dp"
+                android:text="Disable Notifications:"
+                android:textSize="20dp"
+                android:textColor="#E91E63" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:elevation="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="5dp"
+                android:paddingTop="2dp"
+                android:text="Click Settings and then set Notifications  ON / OFF for low attendance according to you."
+                android:textSize="15dp"
+                android:textColor="#009688" />
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="5dp"/>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="@color/accentColor"/>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="@color/accentColor"/>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="5dp"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:elevation="5dp"
+                android:padding="5dp"
+                android:text="Click View Timetable button:"
+                android:textSize="20dp"
+                android:textColor="#E91E63" />
+
+            <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:elevation="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:paddingTop="2dp"
+            android:text="Set/view your Timetable anytime you wish."
+            android:textSize="15dp"
+            android:textColor="#009688" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="5dp"/>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="@color/accentColor"/>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="@color/accentColor"/>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="5dp"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:elevation="5dp"
+                android:padding="5dp"
+                android:text="Daily Ticker:"
+                android:textSize="20dp"
+                android:textColor="#E91E63" />
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:elevation="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:paddingTop="2dp"
+            android:text="Choose the respected radio button if you were present or absent or the particular lecture was not engaged that day."
+            android:textSize="15dp"
+            android:textColor="#009688" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="5dp"/>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="@color/accentColor"/>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="@color/accentColor"/>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="5dp"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:elevation="5dp"
+                android:padding="5dp"
+                android:text="After choosing, click Update:"
+                android:textSize="20dp"
+                android:textColor="#E91E63" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:elevation="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:paddingTop="2dp"
+            android:text="Register and Statistics will be updated and saved!"
+            android:textSize="15dp"
+            android:textColor="#009688" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="5dp"/>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="@color/accentColor"/>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="@color/accentColor"/>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="5dp"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:elevation="5dp"
+                android:padding="5dp"
+                android:text="Change Date:"
+                android:textSize="20dp"
+                android:textColor="#E91E63" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:elevation="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:paddingTop="2dp"
+            android:text="Change the date if you wish to update the statistics/register for a given date."
+            android:textSize="15dp"
+            android:textColor="#009688" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="5dp"/>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="@color/accentColor"/>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="@color/accentColor"/>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="5dp"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:elevation="5dp"
+                android:padding="5dp"
+                android:text="Edit Statistics:"
+                android:textSize="20dp"
+                android:textColor="#E91E63" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:elevation="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:paddingTop="2dp"
+            android:text="You can make changes in your statistics as per your wish."
+            android:textSize="15dp"
+            android:textColor="#009688" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:elevation="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:paddingTop="2dp"
+            android:text="Then click Save Changes to save your edits."
+            android:textSize="15dp"
+            android:textColor="#009688" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="5dp"/>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="@color/accentColor"/>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="@color/accentColor"/>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="5dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

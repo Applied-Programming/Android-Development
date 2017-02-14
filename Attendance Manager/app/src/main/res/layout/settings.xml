@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="5dp"/>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/accentColor"/>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/accentColor"/>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="5dp"/>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="20dp" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical">
+                    <!--android:orientation="horizontal"
+                    android:weightSum="100">-->
+
+
+
+                    <Switch
+                        android:id="@+id/mySwitch"
+                        android:checked="true"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:text="Notifications"
+                        android:typeface="normal"
+                        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+                    <TextView
+                        android:id="@+id/switchStatus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/mySwitch"
+                        android:text="Medium Text"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:visibility="invisible"/>
+
+                    <!--<TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="50"
+                        android:text="Show Notifications:"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:typeface="normal"
+                        android:layout_gravity="center_horizontal"
+                        android:paddingTop="18dp" />
+
+                    <Button
+                        android:id="@+id/bTrue"
+                        android:layout_weight="50"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:text="True"
+                        android:textColor="#E91E63"
+                        android:layout_marginRight="20dp" /> -->
+
+                    <!--<ToggleButton
+                    android:id="@+id/bTrue"
+                    android:checked="true"
+                    android:layout_weight="50"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textOff="False"
+                    android:textOn="True"
+                    android:textColor="#E91E63"
+                    android:layout_marginRight="20dp" />-->
+
+                </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="10dp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="5dp" />
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="@color/accentColor" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="@color/accentColor" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="5dp" />
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:paddingTop="5dp">
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:paddingBottom="5dp"
+                android:text="Minimum Attendance:"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:typeface="normal" />
+
+            <EditText
+                android:id="@+id/etmin"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:hint="Enter cutoff percentage"
+                android:inputType="number"
+                android:numeric="integer"
+                android:typeface="monospace" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp"
+                android:paddingTop="5dp"
+                android:text="%"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:typeface="normal" />
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/bSaveMinP"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:padding="15dp"
+            android:layout_marginTop="20dp"
+            android:text="Save Changes"
+            android:textColor="#E91E63" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="5dp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="5dp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="@color/accentColor" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="@color/accentColor" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="5dp" />
+<!--
+
+        <TextView
+            android:id="@+id/ivtext"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="ivtext"/>
+        &lt;!&ndash;android:visibility="invisible"&ndash;&gt;
+        <TextView
+            android:id="@+id/ivtext2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="ivtext2"/>
+        &lt;!&ndash;android:visibility="invisible"&ndash;&gt;
+-->
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/checkbase" android:state_checked="true"/>
+    <!--<item android:drawable="@drawable/base" android:state_checked="false"/>-->
+    <!--<item android:drawable="@drawable/bluebase" android:state_checked="false"/>-->
+    <!--<item android:drawable="@drawable/graybase" android:state_checked="false"/>-->
+    <!--<item android:drawable="@drawable/lightbluebase" android:state_checked="false"/>-->
+    <!--<item android:drawable="@drawable/lightgraybase" android:state_checked="false"/>-->
+    <item android:drawable="@drawable/bluegraybase" android:state_checked="false"/>
+
+</selector>
